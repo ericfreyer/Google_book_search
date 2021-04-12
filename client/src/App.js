@@ -2,7 +2,8 @@ import React, { Component } from 'react';
 import { HashRouter as Router, Route } from 'react-router-dom';
 import NavBar from './components/Navbar/Navbar'
 import Search from './pages/SearchBooks';
-import Header from './components/Header/Header'
+import Header from './components/Header/Header';
+import SavedBooks from './pages/SavedBooks';
 
 class App extends Component { 
   render () {
@@ -14,7 +15,7 @@ class App extends Component {
 
             <Route exact path="/" component={Search} />
             <Route exact path="/search" component={Search} />
-            {/* <Route exact path="/saved" component={SavedBooks} /> */}
+            <Route exact path="/saved" component={SavedBooks} />
 
         </div>
       </Router>
