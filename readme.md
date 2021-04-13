@@ -14,7 +14,7 @@
 This is a Google Books Search app that displays books the user searches for. Users can then save books to review or purchase later, and also open a selected book up in google books.
 
 # Deployed
-https://polar-plains-58486.herokuapp.com/#/search
+https://polar-plains-58486.herokuapp.com
 
 https://github.com/ericfreyer/google_book_search
 
